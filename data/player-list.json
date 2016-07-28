@@ -1,0 +1,16 @@
+[
+    {
+        "id" : 1,
+        "personalInfo" : {
+            "firstName": "NAME",
+            "lastName": "SURNAME"
+        }
+    },
+    {
+        "id" : 2,
+        "personalInfo" : {
+            "firstName": "NAME2",
+            "lastName": "SURNAME2"
+        }
+    }    
+]
