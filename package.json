@@ -29,9 +29,13 @@
     "server": "node server.js",
     "lint": "eslint '**/*.@(js|jsx)'",
     "build": "webpack --config webpack.config.prod.js",
-    "start": "webpack-dev-server --devtool source-map"
+    "start": "webpack-dev-server --devtool source-map",
+    "validate": "npm ls",
+    "test": "echo just testing"
   },
   "pre-commit": [
+    "validate",
+    "test",
     "lint"
   ],
   "dependencies": {
